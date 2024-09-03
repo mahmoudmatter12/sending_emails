@@ -1,3 +1,3 @@
-# sending_emails
+# SUMMARIZE TEAM _ SENDING E-mails
 
-### Scripting  to send emails to students using csv.file as data source 
+### Script to send emails to students using csv.file as data source 
