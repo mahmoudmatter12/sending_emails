@@ -57,22 +57,3 @@ def send_email(recipient_email, user_name, certificate_url):
 sender_email = "email@email"
 sender_password = "password"  # Consider using environment variables for security
 subject = "Mastering C++ Round Certification!"
-
-# List of students with their name, email, and certificate URL
-students = []
-with open("users.xlsx", "r") as file:
-    students = [line.strip().split(",") for line in file]
-    
-# print(students)
-# students = [
-#     ("", "mahmoodgamal045@gmail.com", ""),
-#     ("", "ahmedkhairy0106@gmail.com", ""),
-#     ("matter", "agtmasu@gmail.com", ""),
-#     # Add more students here
-# ]
-
-# Send email to each student
-for student in students:
-    user_name, recipient_email, certificate_url = student
-    send_email(recipient_email, user_name, certificate_url)    
-    sleep(1)
