@@ -54,8 +54,8 @@ def send_email(recipient_email, user_name, certificate_url):
         print(f"Failed to send email to {user_name} ({recipient_email}): {e}")
 
 # Email credentials
-sender_email = "mi4043673@gmail.com"
-sender_password = "pbyb bvnl xqnt ihlw"  # Consider using environment variables for security
+sender_email = "email@email"
+sender_password = "password"  # Consider using environment variables for security
 subject = "Mastering C++ Round Certification!"
 
 # List of students with their name, email, and certificate URL
